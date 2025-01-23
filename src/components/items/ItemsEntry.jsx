@@ -59,9 +59,9 @@ function ItemsEntry({ onItemsChange, closeModal }) {
     // Prepare the email data
     const emailData = 
     {
-        "toEmails": ["kash766.ka@gmail.com", "Ceo@smartitbox.in"],
-        "subject": "Item Summary Details",
-        "message": "Here is the URL for your item summary:" + url
+        "toEmails": ["ankushs812@gmail.com", "demoerp780@gmail.com", "Ceo@smartitbox.in"],
+        "subject": "Request For Price",
+        "message":  url
       }
 
     // Send email using the sendEmail function
