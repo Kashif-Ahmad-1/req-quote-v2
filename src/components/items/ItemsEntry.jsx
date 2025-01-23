@@ -23,7 +23,7 @@ function ItemsEntry({ onItemsChange, closeModal }) {
   // Function to send email using the POST API
   const sendEmail = async (emailData) => {
     try {
-      const response = await fetch("http://localhost:5000/send-email", {
+      const response = await fetch("https://zakaria-backend.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -54,7 +54,7 @@ function ItemsEntry({ onItemsChange, closeModal }) {
       .join("&");
 
     // Construct the URL
-    const url = `http://localhost:5173/items-summary?${queryParams}`;
+    const url = `https://req-quote-v2.vercel.app/items-summary?${queryParams}`;
 
     // Prepare the email data
     const emailData = 
