@@ -54,7 +54,7 @@ function ItemsEntry({ onItemsChange, closeModal }) {
       .join("&");
 
     // Construct the URL
-    const url = `https://req-quote-v2.vercel.app/items-summary?${queryParams}`;
+    const url = `https://req-quote-v2.onrender.com/items-summary?${queryParams}`;
 
     // Prepare the email data
     const emailData = 
